@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d842306075.js" crossorigin="anonymous"></script>
+    <title>Notes</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1><img src="images/standard-notes.svg"> Notes</h1>
+                <button class="btn"><i class="fa fa-file-text-o" aria-hidden="true">  New Note</i></button>
+                <button class="delete-btn"><i class="fa fa-trash-o" aria-hidden="true"> Delete All</i></button>
+                <!-- <button><i class="fa fa-trash-o" aria-hidden="true">  Delete</i></button> -->
+                <div class="notes-container">
+               <p contenteditable="true" class="input-box" placeholder="Write something here...">
+                    <img src="images/delete.svg" alt="delete-icon">
+                </p>
+            </div>
+        </div>
+        <div id="saved-notes">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
